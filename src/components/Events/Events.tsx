@@ -21,7 +21,7 @@ const Events = () => {
                 </div>
             </div>
             <div className='event-hero'>
-
+                Hero Picture
             </div>
         </div>
     </>

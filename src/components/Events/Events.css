@@ -2,3 +2,35 @@
     margin: 20px;
     display: flex;
 }
+
+.event-details{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-title {
+    padding: 10px;
+}
+
+.event-info {
+    padding: 10;
+}
+
+.event-actions{
+    padding: 10px;
+}
+
+.event-collaborate {
+    padding: 8px;
+}
+
+.event-joinus {
+    padding: 8px;
+}
+
+.event-hero{
+    background-image: url("../../../public/assets/imgs/hero.jpg");
+}
