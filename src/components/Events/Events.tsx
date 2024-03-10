@@ -2,23 +2,30 @@ import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import './Events.css'
-import Stats from '../Stats/Stats'
+import Reveal from '../Reveal/Reveal'
+// import Stats from '../Stats/Stats'
 
 const Events = () => {
   return (
     <>
         <div className="event-body">
             <div className='event-details'>
-                <p className='event-header'>
-                    <img src="../../../public/assets/icons/star.svg" alt="star" className='header-star'/>
-                    IEI STUDENT'S CHAPTER OF ELECTRICAL ENGINEERING
-                </p>
-                <h1 className='event-title'>
-                    PCB MANIA 2024
-                </h1>
-                <p className='event-info'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae expedita vel tenetur excepturi velit pariatur dolor
-                </p>
+                <Reveal>
+                    <p className='event-header'>
+                        <img src="../../../public/assets/icons/star.svg" alt="star" className='header-star'/>
+                        IEI STUDENT'S CHAPTER OF ELECTRICAL ENGINEERING
+                    </p>
+                </Reveal>
+                <Reveal>
+                    <h1 className='event-title'>
+                        PCB MANIA 2024
+                    </h1>
+                </Reveal>
+                <Reveal>
+                    <p className='event-info'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae expedita vel tenetur excepturi velit pariatur dolor
+                    </p>
+                </Reveal>
                 <div className='event-actions'>
                     <button className='event-collaborate'>
                         Collaborate
@@ -29,7 +36,7 @@ const Events = () => {
                         <FontAwesomeIcon className='button-arrow-two' icon={faCircleArrowRight} />
                     </button>
                 </div>
-                <Stats/>
+                {/* <Stats/> */}
             </div>
             <div className='event-hero'>
                 {/* Hero Picture */}
