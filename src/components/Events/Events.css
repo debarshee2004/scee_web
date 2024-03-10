@@ -54,7 +54,8 @@
     border-radius: 50px;
     border-width: 0px;
     background-color: #284183;
-    color: #FFF0FF;
+    color: #FAF9F6;
+    font-size: large;
 }
 
 .event-joinus {
@@ -62,17 +63,24 @@
     justify-content: center;
     align-items: center;
     width: 200px;
-    padding: 20px;
+    padding: 18px;
+    background-color: #FAF9F6;
     border-radius: 50px;
-    border-width: 0px;    
-    background-color: #284183;
-    color: #FFF0FF;
+    border-width: 2px;   
+    border-color: #284183; 
+    font-size: large;
 }
 
 .button-arrow {
     height: 30px;
     margin-left: 10px;
-    color: #FFF0FF;
+    color: #FAF9F6;
+}
+
+.button-arrow-two {
+    height: 30px;
+    margin-left: 10px;
+    color: #284183;
 }
 
 .event-hero{
