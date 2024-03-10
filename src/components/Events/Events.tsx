@@ -5,8 +5,12 @@ const Events = () => {
     <>
         <div className="event-body">
             <div className='event-details'>
+                <p className='event-header'>
+                    <img src="../../../public/assets/icons/star.svg" alt="star" className='header-star'/>
+                    IEI STUDENT'S CHAPTER OF ELECTRICAL ENGINEERING
+                </p>
                 <h1 className='event-title'>
-                    IEI Students' Chapter of Electrical Engineering.
+                    PCB WORKSHOP 2024
                 </h1>
                 <p className='event-info'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae expedita vel tenetur excepturi velit pariatur dolor
@@ -16,12 +20,12 @@ const Events = () => {
                         Collaborate
                     </button>
                     <button className='event-joinus'>
-                        Join Us
+                        Participate
                     </button>
                 </div>
             </div>
             <div className='event-hero'>
-                Hero Picture
+                {/* Hero Picture */}
             </div>
         </div>
     </>
