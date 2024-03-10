@@ -1,4 +1,6 @@
+import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons'
 import './Events.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Events = () => {
   return (
@@ -10,7 +12,7 @@ const Events = () => {
                     IEI STUDENT'S CHAPTER OF ELECTRICAL ENGINEERING
                 </p>
                 <h1 className='event-title'>
-                    PCB WORKSHOP 2024
+                    PCB MANIA 2024
                 </h1>
                 <p className='event-info'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae expedita vel tenetur excepturi velit pariatur dolor
@@ -18,9 +20,11 @@ const Events = () => {
                 <div className='event-actions'>
                     <button className='event-collaborate'>
                         Collaborate
+                        <FontAwesomeIcon className='button-arrow' icon={faCircleArrowRight} />
                     </button>
                     <button className='event-joinus'>
                         Participate
+                        <FontAwesomeIcon className='button-arrow' icon={faCircleArrowRight} />
                     </button>
                 </div>
             </div>
