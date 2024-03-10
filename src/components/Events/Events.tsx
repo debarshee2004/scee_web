@@ -1,6 +1,8 @@
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons'
-import './Events.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import './Events.css'
+import Stats from '../Stats/Stats'
 
 const Events = () => {
   return (
@@ -24,9 +26,10 @@ const Events = () => {
                     </button>
                     <button className='event-joinus'>
                         Participate
-                        <FontAwesomeIcon className='button-arrow' icon={faCircleArrowRight} />
+                        <FontAwesomeIcon className='button-arrow-two' icon={faCircleArrowRight} />
                     </button>
                 </div>
+                <Stats/>
             </div>
             <div className='event-hero'>
                 {/* Hero Picture */}
