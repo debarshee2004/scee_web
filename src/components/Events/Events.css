@@ -56,6 +56,16 @@
     background-color: #284183;
     color: #FAF9F6;
     font-size: large;
+    transition: color 0.4s linear;
+}
+
+.event-collaborate:hover {
+    padding: 18px;
+    border-width: 2px;
+    color: #284183;
+    background-color: #FAF9F6;
+    border-color: #284183;
+    cursor: pointer;
 }
 
 .event-joinus {
@@ -69,18 +79,37 @@
     border-width: 2px;   
     border-color: #284183; 
     font-size: large;
+    transition: color 0.4s linear;
+}
+
+.event-joinus:hover {
+    padding: 20px;
+    border-width: 0px;
+    color: #FAF9F6;
+    background-color: #284183;
+    cursor: pointer;
 }
 
 .button-arrow {
     height: 30px;
     margin-left: 10px;
     color: #FAF9F6;
+    transition: color 0.4s linear;
+}
+
+.event-collaborate:hover .button-arrow {
+    color: #284183;
 }
 
 .button-arrow-two {
     height: 30px;
     margin-left: 10px;
     color: #284183;
+    transition: color 0.4s linear;
+}
+
+.event-joinus:hover .button-arrow-two {
+    color: #FAF9F6;
 }
 
 .event-hero{
@@ -93,4 +122,39 @@
     margin: 20px;
     margin-right: 50px;
     border-radius: 24px;
+}
+
+@media only screen and (max-width: 475px) {
+    .event-details {
+        margin-left: 20px;
+    }
+
+    .event-hero {
+        display: none;
+    }
+
+    .event-header {
+        font-size: 12px;
+    }
+
+    .event-info {
+        font-size: 10px;
+        max-width: 200px;
+    }
+
+    .event-collaborate {
+        font-size: small;
+    }
+
+    .event-joinus {
+        font-size: small;
+    }
+
+    .button-arrow {
+        height: 20px;
+    }
+
+    .button-arrow-two {
+        height: 20px;
+    }
 }
