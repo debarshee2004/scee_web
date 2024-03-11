@@ -1,160 +1,203 @@
-.event-body{
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    background-color: #FAF9F6;
+.event-body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: #faf9f6;
 }
 
-.event-details{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
-    /* background-color: pink; */
-    width: 50%;
-    margin: 20px;
-    margin-left: 50px;
-    margin-right: 0;
+.event-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* background-color: pink; */
+  width: 50%;
+  margin: 20px;
+  margin-left: 50px;
+  margin-right: 0;
 }
 
 .event-header {
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    font-size: small;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  font-size: small;
 }
 
 .header-star {
-    height: 12px;
-    margin-right: 5px;
+  height: 12px;
+  margin-right: 5px;
+}
+
+.isc {
+  font-weight: 700;
+  margin-right: 4px;
 }
 
 .event-title {
-    font-size: 80px;
+  font-size: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.play {
+  font-size: 68px;
+  color: #284183;
+}
+
+.dot {
+  color: #284183;
 }
 
 .event-info {
-    font-size: 12px;
-    color: gray;
-    width: 500px;
+  font-size: 12px;
+  color: gray;
+  width: 500px;
 }
 
-.event-actions{
-    margin-top: 40px;
-    display: flex;
+.event-actions {
+  margin-top: 40px;
+  display: flex;
 }
 
 .event-collaborate {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    padding: 20px;
-    margin-right: 16px;
-    border-radius: 50px;
-    border-width: 0px;
-    background-color: #284183;
-    color: #FAF9F6;
-    font-size: large;
-    transition: color 0.4s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  padding: 20px;
+  margin-right: 16px;
+  border-radius: 50px;
+  border-width: 0px;
+  background-color: #284183;
+  color: #faf9f6;
+  font-size: large;
+  transition: color 0.4s linear;
 }
 
 .event-collaborate:hover {
-    padding: 18px;
-    border-width: 2px;
-    color: #284183;
-    background-color: #FAF9F6;
-    border-color: #284183;
-    cursor: pointer;
+  padding: 18px;
+  border-width: 2px;
+  color: #284183;
+  background-color: #faf9f6;
+  border-color: #284183;
+  cursor: pointer;
 }
 
 .event-joinus {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    padding: 18px;
-    background-color: #FAF9F6;
-    border-radius: 50px;
-    border-width: 2px;   
-    border-color: #284183; 
-    font-size: large;
-    transition: color 0.4s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  padding: 18px;
+  background-color: #faf9f6;
+  border-radius: 50px;
+  border-width: 2px;
+  border-color: #284183;
+  font-size: large;
+  transition: color 0.4s linear;
 }
 
 .event-joinus:hover {
-    padding: 20px;
-    border-width: 0px;
-    color: #FAF9F6;
-    background-color: #284183;
-    cursor: pointer;
+  padding: 20px;
+  border-width: 0px;
+  color: #faf9f6;
+  background-color: #284183;
+  cursor: pointer;
 }
 
 .button-arrow {
-    height: 30px;
-    margin-left: 10px;
-    color: #FAF9F6;
-    transition: color 0.4s linear;
+  height: 30px;
+  margin-left: 10px;
+  color: #faf9f6;
+  transition: color 0.4s linear;
 }
 
 .event-collaborate:hover .button-arrow {
-    color: #284183;
+  color: #284183;
 }
 
 .button-arrow-two {
-    height: 30px;
-    margin-left: 10px;
-    color: #284183;
-    transition: color 0.4s linear;
+  height: 30px;
+  margin-left: 10px;
+  color: #284183;
+  transition: color 0.4s linear;
 }
 
 .event-joinus:hover .button-arrow-two {
-    color: #FAF9F6;
+  color: #faf9f6;
 }
 
-.event-hero{
-    /* background-color: lightblue; */
-    background-image: url("../../assets/imgs/hero.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-    margin: 20px;
-    margin-right: 50px;
-    border-radius: 24px;
+a {
+  text-decoration: none;
+}
+
+.event-hero {
+  /* background-color: lightblue; */
+  background-image: url("../../assets/imgs/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  margin: 20px;
+  margin-right: 50px;
+  border-radius: 24px;
 }
 
 @media only screen and (max-width: 475px) {
-    .event-details {
-        margin-left: 20px;
-    }
+  .event-details {
+    margin-left: 20px;
+  }
 
-    .event-hero {
-        display: none;
-    }
+  .event-hero {
+    display: none;
+  }
 
-    .event-header {
-        font-size: 12px;
-    }
+  .event-header {
+    font-size: 10px;
+  }
 
-    .event-info {
-        font-size: 10px;
-        max-width: 200px;
-    }
+  .event-header-title {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .event-collaborate {
-        font-size: small;
-    }
+  .header-star {
+    height: 16px;
+  }
 
-    .event-joinus {
-        font-size: small;
-    }
+  .event-title {
+    font-size: 70px;
+  }
 
-    .button-arrow {
-        height: 20px;
-    }
+  .play {
+    font-size: 60px;
+  }
 
-    .button-arrow-two {
-        height: 20px;
-    }
+  .event-info {
+    font-size: 10px;
+    max-width: 300px;
+  }
+
+  .event-collaborate {
+    font-size: small;
+    width: 150px;
+  }
+
+  .event-joinus {
+    font-size: small;
+    width: 150px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .button-arrow {
+    height: 20px;
+  }
+
+  .button-arrow-two {
+    height: 20px;
+  }
 }
