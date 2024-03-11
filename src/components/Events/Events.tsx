@@ -12,7 +12,7 @@ const Events = () => {
             <div className='event-details'>
                 <Reveal>
                     <p className='event-header'>
-                    <FontAwesomeIcon className='header-star' icon={faBolt} />
+                        <FontAwesomeIcon className='header-star' icon={faBolt} />
                         IEI STUDENT'S CHAPTER OF ELECTRICAL ENGINEERING
                     </p>
                 </Reveal>
