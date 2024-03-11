@@ -112,6 +112,10 @@
     color: #FAF9F6;
 }
 
+a {
+    text-decoration: none;
+}
+
 .event-hero{
     /* background-color: lightblue; */
     background-image: url("../../assets/imgs/hero.jpg");
@@ -137,17 +141,27 @@
         font-size: 12px;
     }
 
+    .event-title {
+        font-size: 70px;
+    }
+
     .event-info {
         font-size: 10px;
-        max-width: 200px;
+        max-width: 300px;
     }
 
     .event-collaborate {
         font-size: small;
+        width: 150px;
     }
 
     .event-joinus {
         font-size: small;
+        width: 150px;
+    }
+
+    a {
+        text-decoration: none;
     }
 
     .button-arrow {

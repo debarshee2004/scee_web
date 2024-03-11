@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import './Events.css'
 import Reveal from '../Reveal/Reveal'
-// import Stats from '../Stats/Stats'
 
 const Events = () => {
   return (
@@ -18,28 +17,31 @@ const Events = () => {
                 </Reveal>
                 <Reveal>
                     <h1 className='event-title'>
-                        PCB MANIA 2024
+                        ELECTRO FORGE 2024
                     </h1>
                 </Reveal>
                 <Reveal>
                     <p className='event-info'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae expedita vel tenetur excepturi velit pariatur dolor
+                        A yearly event organized by IEI SCEE AOT about PCB, IOT and circuit designs. This focuses on building the basic knowledge of an Electrical Engineer so that they can create their own circuits.
                     </p>
                 </Reveal>
                 <div className='event-actions'>
-                    <button className='event-collaborate'>
-                        Collaborate
-                        <FontAwesomeIcon className='button-arrow' icon={faCircleArrowRight} />
-                    </button>
-                    <button className='event-joinus'>
-                        Participate
-                        <FontAwesomeIcon className='button-arrow-two' icon={faCircleArrowRight} />
-                    </button>
+                    <a href="">
+                        <button className='event-collaborate'>
+                            Collaborate
+                            <FontAwesomeIcon className='button-arrow' icon={faCircleArrowRight} />
+                        </button>
+                    </a>
+                    <a href="">
+                        <button className='event-joinus'>
+                            Participate
+                            <FontAwesomeIcon className='button-arrow-two' icon={faCircleArrowRight} />
+                        </button>
+                    </a>
                 </div>
-                {/* <Stats/> */}
             </div>
             <div className='event-hero'>
-                {/* Hero Picture */}
+                {/* Hero */}
             </div>
         </div>
     </>
