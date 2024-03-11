@@ -1,7 +1,6 @@
 import {
   faBolt,
   faCircleArrowRight,
-  faCirclePlay,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -26,11 +25,7 @@ const Events = () => {
             <h1 className="event-title">
               ELECTRO FORGE
               <span>
-                2
-                <span className="play">
-                  <FontAwesomeIcon icon={faCirclePlay} />
-                </span>
-                24
+                2024
                 <span className="dot">.</span>
               </span>
             </h1>
