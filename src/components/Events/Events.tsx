@@ -1,4 +1,4 @@
-import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faBolt, faCircleArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import './Events.css'
@@ -12,7 +12,7 @@ const Events = () => {
             <div className='event-details'>
                 <Reveal>
                     <p className='event-header'>
-                        <img src="../../../public/assets/icons/star.svg" alt="star" className='header-star'/>
+                    <FontAwesomeIcon className='header-star' icon={faBolt} />
                         IEI STUDENT'S CHAPTER OF ELECTRICAL ENGINEERING
                     </p>
                 </Reveal>
