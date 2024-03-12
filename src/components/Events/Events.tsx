@@ -1,7 +1,4 @@
-import {
-  faBolt,
-  faCircleArrowRight,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBolt, faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./Events.css";
@@ -58,7 +55,13 @@ const Events = () => {
             </a>
           </div>
         </div>
-        <div className="event-hero">{/* Hero */}</div>
+        <div className="event-hero">
+          <div className="top-hero">{/* hello */}</div>
+          <div className="bottom-hero">
+            <div className="bottom-left-hero">{/* hello */}</div>
+            <div className="bottom-right-hero">{/* hello */}</div>
+          </div>
+        </div>
       </div>
     </>
   );
