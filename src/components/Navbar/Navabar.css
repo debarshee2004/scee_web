@@ -1,0 +1,40 @@
+nav{
+    position: fixed;
+    display: flex;
+    z-index: 99;
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    /* top: 1%; */
+    /* border-radius: 16px; */
+    height: 7vh;
+    width: 100vw;
+    background-color: #284083d5;
+    backdrop-filter: blur(10px);
+}
+
+.navbar {
+    margin: 0 200px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    color: #faf9f6;
+}
+
+.follow {
+    text-decoration: none;
+    color: #faf9f6;
+    padding: 15px;
+}
+
+.membership {
+    border-width: 0;
+    background-color: #faf9f6;
+    color: #284183;
+    padding: 10px;
+    border-radius: 12px;
+    font-weight: 700;
+}
