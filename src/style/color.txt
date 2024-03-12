@@ -1,4 +1,4 @@
-Colors used: 
+Colors: 
 
 - #f2d81a [Yellow]
 - #284183 [Blue]
