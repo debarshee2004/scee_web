@@ -31,10 +31,6 @@
   font-size: small;
 }
 
-.event-header-title {
-  color: #000;
-}
-
 .header-star {
   height: 12px;
   margin-right: 5px;
@@ -50,7 +46,7 @@
   font-size: 80px;
   display: flex;
   flex-direction: column;
-  color: #000;
+  color: #222222;
 }
 
 .dot {
