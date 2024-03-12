@@ -26,32 +26,37 @@ const Cursor = () => {
     };
 
     window.addEventListener("mousemove", mouseMove);
-    document.querySelector("h1")!.addEventListener("mouseenter", handleTextEnter);
-    document.querySelector("h1")!.addEventListener("mouseleave", handleTextLeave);
+    document
+      .querySelector("h1")!
+      .addEventListener("mouseenter", handleTextEnter);
+    document
+      .querySelector("h1")!
+      .addEventListener("mouseleave", handleTextLeave);
 
     return () => {
       window.removeEventListener("mousemove", mouseMove);
-      document.querySelector("h1")!.removeEventListener("mouseenter", handleTextEnter);
-      document.querySelector("h1")!.removeEventListener("mouseleave", handleTextLeave);
+      document
+        .querySelector("h1")!
+        .removeEventListener("mouseenter", handleTextEnter);
+      document
+        .querySelector("h1")!
+        .removeEventListener("mouseleave", handleTextLeave);
     };
   }, []);
-  
+
   const variants = {
     default: {
       x: mousePosition.x - 16,
       y: mousePosition.y - 16,
     },
     text: {
-        x: mousePosition.x - 75,
-        y: mousePosition.y - 75,
-        height: 150,
-        width: 150,
-        backgroundColor: "#faf9f6",
-        // mixBlendMode: "difference"
-    }
+      x: mousePosition.x - 75,
+      y: mousePosition.y - 75,
+      height: 150,
+      width: 150,
+      backgroundColor: "#284183",
+    },
   };
-
-  
 
   const textEnter = () => setCursorVariant("text");
   const textLeave = () => setCursorVariant("default");
