@@ -1,0 +1,5 @@
+Colors: 
+
+- #f2d81a [Yellow]
+- #284183 [Blue]
+- #faf9f6 [Cream]
