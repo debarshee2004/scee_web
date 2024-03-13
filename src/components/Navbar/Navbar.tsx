@@ -1,27 +1,25 @@
-import "./Navabar.css"
+import "./Navabar.css";
 
 const Navbar = () => {
   return (
     <>
       <nav>
         <div className="navbar">
-          <h3>
-          IEI SCEE AOT 
-          </h3>
+          <h3>IEI SCEE AOT</h3>
           <div>
-            <a className="follow" href="">Home</a>
-            <a className="follow" href="">About</a>
-            <a className="follow" href="">Team</a>
-            <a className="follow" href="">Faculty</a>
-            <a className="follow" href="">Events</a>
+            <ul className="menu">
+              <li>Home</li>
+              <li>Teams</li>
+              <li>Faculty</li>
+              <li>Events</li>
+              <li>Contact</li>
+            </ul>
           </div>
-          <button className="membership">
-            Become a Member
-          </button>
+          <button className="membership">Become a Member</button>
         </div>
       </nav>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
