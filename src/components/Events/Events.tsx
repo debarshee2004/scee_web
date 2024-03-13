@@ -56,11 +56,7 @@ const Events = () => {
           </div>
         </div>
         <div className="event-hero">
-          <div className="top-hero"></div>
-          <div className="bottom-hero">
-            <div className="bottom-left-hero"></div>
-            <div className="bottom-right-hero"></div>
-          </div>
+          
         </div>
       </div>
     </>

@@ -16,10 +16,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
-  /* background-color: pink; */
-  width: 50%;
+  width: 40%;
   margin: 20px;
+  margin-top: 10vh;
   margin-left: 50px;
   margin-right: 0;
 }
@@ -76,7 +75,7 @@
   background-color: #284183;
   color: #faf9f6;
   font-size: large;
-  transition: color 0.4s linear;
+  transition: color 0.4s ease-in;
 }
 
 .event-collaborate:hover {
@@ -100,7 +99,7 @@
   color: #284183;
   border-color: #284183;
   font-size: large;
-  transition: color 0.4s linear;
+  transition: color 0.4s ease-in;
 }
 
 .event-joinus:hover {
@@ -115,7 +114,7 @@
   height: 30px;
   margin-left: 10px;
   color: #faf9f6;
-  transition: color 0.4s linear;
+  transition: color 0.4s ease-in;
 }
 
 .event-collaborate:hover .button-arrow {
@@ -126,7 +125,7 @@
   height: 30px;
   margin-left: 10px;
   color: #284183;
-  transition: color 0.4s linear;
+  transition: color 0.4s ease-in;
 }
 
 .event-joinus:hover .button-arrow-two {
@@ -138,51 +137,18 @@ a {
 }
 
 .event-hero {
-  width: 50%;
-  margin: 20px;
-  margin-top: 80px;
-  margin-bottom: 80px;
-  margin-right: 50px;
-  border-radius: 16px;
-  display: flex;
-  flex-direction: column;
-}
-
-.top-hero {
   background-image: url("../../assets/imgs/people.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50%;
-  border-radius: 16px;
-  margin-bottom: 5px;
-}
-
-.bottom-hero {
-  height: 50%;
+  width: 60%;
+  margin: 20px;
+  margin-top: 20vh;
+  margin-bottom: 12vh;
+  margin-right: 50px;
   border-radius: 16px;
   display: flex;
-  margin-top: 5px;
-}
-
-.bottom-left-hero {
-  background-image: url("../../assets/imgs/pcb.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 50%;
-  border-radius: 16px;
-  margin-right: 5px;
-}
-
-.bottom-right-hero {
-  background-image: url("../../assets/imgs/berry.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 50%;
-  border-radius: 16px;
-  margin-left: 5px;
+  flex-direction: column;
 }
 
 @media only screen and (max-width: 475px) {
