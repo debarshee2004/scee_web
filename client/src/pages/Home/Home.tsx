@@ -2,7 +2,7 @@ import { faBolt, faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./Home.css";
-import Reveal from "../Reveal/Reveal";
+import Reveal from "../../components/Reveal/Reveal";
 
 const Home = () => {
   return (
