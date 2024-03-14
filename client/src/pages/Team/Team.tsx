@@ -1,6 +1,8 @@
+import "./Team.css"
+
 const Team = () => {
   return (
-    <div>Team</div>
+    <div className="teams">Team</div>
   )
 }
 

@@ -1,6 +1,8 @@
+import "./Events.css"
+
 const Events = () => {
   return (
-    <div>Events</div>
+    <div className="teams">Events</div>
   )
 }
 
