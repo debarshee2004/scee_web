@@ -1,4 +1,4 @@
-import "./Navabar.css";
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
@@ -12,7 +12,6 @@ const Navbar = () => {
               <li>Teams</li>
               <li>Faculty</li>
               <li>Events</li>
-              <li>Contact</li>
             </ul>
           </div>
           <button className="membership">Become a Member</button>

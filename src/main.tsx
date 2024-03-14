@@ -1,15 +1,15 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-import App from './App.tsx'
-import './style/main.css'
-import Cursor from './components/Cursor/Cursor.tsx'
-import Navbar from './components/Navbar/Navbar.tsx'
+import "./main.css";
+import Cursor from "./components/Cursor/Cursor.tsx";
+import Navbar from "./components/Navbar/Navbar.tsx";
+import Home from "./components/Home/Home.tsx";
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <Cursor/>
-    <Navbar/>
-    <App />
-  </React.StrictMode>,
-)
+    <Cursor />
+    <Navbar />
+    <Home />
+  </React.StrictMode>
+);
