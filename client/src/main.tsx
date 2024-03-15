@@ -3,15 +3,12 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 
 import App from './App.tsx'
-import { QueryProvider } from "./lib/Quary.tsx"
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
-      <QueryProvider>
-        <App />
-      </QueryProvider>
+      <App />
     </BrowserRouter>
   </React.StrictMode>,
 )
