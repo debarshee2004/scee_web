@@ -6,19 +6,18 @@ import Team from "./pages/Team/Team"
 import Faculty from "./pages/Faculty/Faculty"
 import Events from "./pages/Events/Events"
 import Error from "./pages/Error/Error"
-import Cursor from "./components/Cursor/Cursor"
 import Navbar from "./components/Navbar/Navbar"
 
 const App = () => {
   return (
     <main>
-      <Cursor />
-      <Navbar />
       <Routes>
-        <Route index element={<Home/>} />
-        <Route path="/team" element={<Team/>} />
-        <Route path="/faculty" element={<Faculty/>} />
-        <Route path="/events" element={<Events/>} />
+        <Route element={<Navbar/>} >
+          <Route index element={<Home/>} />
+          <Route path="/team" element={<Team/>} />
+          <Route path="/faculty" element={<Faculty/>} />
+          <Route path="/events" element={<Events/>} />
+        </Route>
         <Route path="*" element={<Error/>} />
       </Routes>
     </main>

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -18,6 +18,7 @@ const Navbar = () => {
           <button className="membership">Become a Member</button>
         </div>
       </nav>
+      <Outlet/>
     </>
   );
 };
